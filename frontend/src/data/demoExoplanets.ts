@@ -1,0 +1,66 @@
+import type { Exoplanet } from '../types/exoplanet';
+
+// Temporary prototype catalog. Replace with backend-sourced records when available.
+// Temperature and stellar-flux values are omitted until reliable values are sourced.
+export const demoExoplanets: Exoplanet[] = [
+  {
+    id: 'kepler-442-b',
+    name: 'Kepler-442 b',
+    hostStar: 'Kepler-442',
+    planetType: 'terrestrial',
+    radiusEarth: 1.34,
+    equilibriumTempK: null,
+    stellarFluxEarth: null,
+    distanceLightYears: 1200,
+  },
+  {
+    id: 'kepler-62-f',
+    name: 'Kepler-62 f',
+    hostStar: 'Kepler-62',
+    planetType: 'terrestrial',
+    radiusEarth: 1.41,
+    equilibriumTempK: null,
+    stellarFluxEarth: null,
+    distanceLightYears: 990,
+  },
+  {
+    id: 'kepler-186-f',
+    name: 'Kepler-186 f',
+    hostStar: 'Kepler-186',
+    planetType: 'terrestrial',
+    radiusEarth: 1.17,
+    equilibriumTempK: null,
+    stellarFluxEarth: null,
+    distanceLightYears: 580,
+  },
+  {
+    id: 'toi-700-d',
+    name: 'TOI-700 d',
+    hostStar: 'TOI-700',
+    planetType: 'terrestrial',
+    radiusEarth: 1.07,
+    equilibriumTempK: null,
+    stellarFluxEarth: null,
+    distanceLightYears: 100,
+  },
+  {
+    id: 'trappist-1-e',
+    name: 'TRAPPIST-1 e',
+    hostStar: 'TRAPPIST-1',
+    planetType: 'terrestrial',
+    radiusEarth: 0.92,
+    equilibriumTempK: null,
+    stellarFluxEarth: null,
+    distanceLightYears: 40,
+  },
+  {
+    id: 'proxima-centauri-b',
+    name: 'Proxima Centauri b',
+    hostStar: 'Proxima Centauri',
+    planetType: 'unknown',
+    radiusEarth: null,
+    equilibriumTempK: null,
+    stellarFluxEarth: null,
+    distanceLightYears: 4.2,
+  },
+];
